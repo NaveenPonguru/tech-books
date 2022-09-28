@@ -1,0 +1,518 @@
+<table border='2px'><tr><th width="12%" class="" data-sortval="0">
+                        <span class="header-title">Scrip name</span>
+                    <span class="default-sort"><span class="sort-asc"></span><span class="sort-des"></span></span></th><th width="6%" class="text-right noSort">
+                        <span class="header-title">LTP </span>
+                        
+                    </th><th class="text-right ShowInExcel" style="width:0%">
+                        <span>Day's Change</span>
+                    </th><th class="text-right ShowInExcel" style="width:0%">
+                        <span>Change Percentage</span>
+                    </th><th width="6%" class="text-right noSort">
+                        <span class="header-title">Qty</span>
+                        
+                    </th><th width="9%" class="text-right noSort">
+                        <span class="header-title">
+                            Avg Price 
+                        </span>
+                        
+                    </th><th class="text-right ShowInExcel" style="width:0%">
+                        <span>Current Value </span>
+                    </th><th class="text-right ShowInExcel" style="width:0%">
+                        <span>Investment Cost</span>
+                    </th><th class="text-right ShowInExcel" style="width:0%">
+                        <span>UnRealized Gain/Loss</span>
+                    </th><th class="text-right ShowInExcel" style="width:0%">
+                        <span>UnRealized Gain/Loss Percentage</span>
+                    </th><th class="text-right ShowInExcel" style="width:0%">
+                            <span>Realized Gain/Loss</span>
+                        </th><th class="text-right ShowInExcel" style="width:0%">
+                        <span>Day<br> Gain / Loss</span>
+                    </th><th class="text-right ShowInExcel" style="width:0%">
+                        <span>Day<br> Gain / Loss (%)</span>
+                    </th></tr><tr><td>
+                                    <span class="text-capitalize scrip-name text-blue" href="javascript:void(0)" data-val="68117|Zomato Ltd|90.95|-22.7|-19.97|NSE|INE758T01015||A|5097" data-hiddenval="75|109.53|100|0|75|0|95.2|0|128.65|175|5097_175" onclick="GetEquityMiniSnapshotNew_Omne('h',68117,'scheme_table','5097+NSE');">Zomato Ltd</span>
+                                    <span id="dvEqCompanyIcons_68117" class="icon-section"></span>
+                                </td><td class="text-right">
+                                    <span id="ltp_5097_175">91.35</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changeExcel_5097_175">-22.7</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_5097_175">-19.97</span>
+                                </td><td class="text-right text-blue">
+                                    <span class="scrip-name" style="cursor:pointer" onclick="getTransactions('','68117','INE758T01015');">175</span>
+                                </td><td class="text-right" id="avgPrice_5097_175">
+                                    109.53
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="CMVExcel_5097_175">15,986.00</span>
+                                </td><td class="text-right ShowInExcel">
+                                    <span id="InvValExcel_5097_175">19168</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLExcel_5097_175">-3,181.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLPerExcel_5097_175">-16.60%</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="RealGLExcel_5097_175">0.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="dayGLExcel_5097_175">-385</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_5097_175">-19.97</span>
+                                </td></tr><tr><td>
+                                    <span class="text-capitalize scrip-name text-blue" href="javascript:void(0)" data-val="34697|Equitas Holdings|105|-8.6|-7.57|NSE|INE988K01017||A|16852" data-hiddenval="10|85.05|0|0|10|0|0|0|85.05|10|16852_10" onclick="GetEquityMiniSnapshotNew_Omne('h',34697,'scheme_table','16852+NSE');">Equitas Holdings</span>
+                                    <span id="dvEqCompanyIcons_34697" class="icon-section"></span>
+                                </td><td class="text-right">
+                                    <span id="ltp_16852_10">104.20</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changeExcel_16852_10">-8.6</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_16852_10">-7.57</span>
+                                </td><td class="text-right text-blue">
+                                    <span class="scrip-name" style="cursor:pointer" onclick="getTransactions('','34697','INE988K01017');">10</span>
+                                </td><td class="text-right" id="avgPrice_16852_10">
+                                    85.05
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="CMVExcel_16852_10">1,042.00</span>
+                                </td><td class="text-right ShowInExcel">
+                                    <span id="InvValExcel_16852_10">850</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLExcel_16852_10">192.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLPerExcel_16852_10">22.52%</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="RealGLExcel_16852_10">0.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="dayGLExcel_16852_10">-86</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_16852_10">-7.57</span>
+                                </td></tr><tr><td>
+                                    <span class="text-capitalize scrip-name text-blue" href="javascript:void(0)" data-val="0|SONACOMS|653|-49.15|-7|NSE|INE073K01018||A|4684" data-hiddenval="0|663.78|90|0|0|0|663.78|0|696|90|4684_90" onclick="GetEquityMiniSnapshotNew_Omne('h',0,'scheme_table','4684+NSE');">SONACOMS</span>
+                                    <span id="dvEqCompanyIcons_0" class="icon-section"></span>
+                                </td><td class="text-right">
+                                    <span id="ltp_4684_90">651.15</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changeExcel_4684_90">-49.15</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_4684_90">-7</span>
+                                </td><td class="text-right text-blue">
+                                    <span class="scrip-name" style="cursor:pointer" onclick="getTransactions('','0','INE073K01018');">90</span>
+                                </td><td class="text-right" id="avgPrice_4684_90">
+                                    663.78
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="CMVExcel_4684_90">58,603.00</span>
+                                </td><td class="text-right ShowInExcel">
+                                    <span id="InvValExcel_4684_90">59740</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLExcel_4684_90">-1,137.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLPerExcel_4684_90">-1.90%</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="RealGLExcel_4684_90">0.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="dayGLExcel_4684_90">-1,136</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_4684_90">-7.00</span>
+                                </td></tr><tr><td>
+                                    <span class="text-capitalize scrip-name text-blue" href="javascript:void(0)" data-val="4764|JSW Steel|620.15|-46.1|-6.92|NSE|INE019A01038||A|11723" data-hiddenval="5|601.68|0|0|5|0|0|0|601.68|5|11723_5" onclick="GetEquityMiniSnapshotNew_Omne('h',4764,'scheme_table','11723+NSE');">JSW Steel</span>
+                                    <span id="dvEqCompanyIcons_4764" class="icon-section"></span>
+                                </td><td class="text-right">
+                                    <span id="ltp_11723_5">621.80</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changeExcel_11723_5">-46.1</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_11723_5">-6.92</span>
+                                </td><td class="text-right text-blue">
+                                    <span class="scrip-name" style="cursor:pointer" onclick="getTransactions('','4764','INE019A01038');">5</span>
+                                </td><td class="text-right" id="avgPrice_11723_5">
+                                    601.68
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="CMVExcel_11723_5">3,109.00</span>
+                                </td><td class="text-right ShowInExcel">
+                                    <span id="InvValExcel_11723_5">3008</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLExcel_11723_5">101.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLPerExcel_11723_5">3.34%</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="RealGLExcel_11723_5">0.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="dayGLExcel_11723_5">-231</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_11723_5">-6.92</span>
+                                </td></tr><tr><td>
+                                    <span class="text-capitalize scrip-name text-blue" href="javascript:void(0)" data-val="14155|Subex|46.75|-3.3|-6.59|NSE|INE754A01055||A|967" data-hiddenval="250|48.4|0|0|250|0|0|0|48.4|250|967_250" onclick="GetEquityMiniSnapshotNew_Omne('h',14155,'scheme_table','967+NSE');">Subex</span>
+                                    <span id="dvEqCompanyIcons_14155" class="icon-section"></span>
+                                </td><td class="text-right">
+                                    <span id="ltp_967_250">46.45</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changeExcel_967_250">-3.3</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_967_250">-6.59</span>
+                                </td><td class="text-right text-blue">
+                                    <span class="scrip-name" style="cursor:pointer" onclick="getTransactions('','14155','INE754A01055');">250</span>
+                                </td><td class="text-right" id="avgPrice_967_250">
+                                    48.40
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="CMVExcel_967_250">11,612.00</span>
+                                </td><td class="text-right ShowInExcel">
+                                    <span id="InvValExcel_967_250">12101</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLExcel_967_250">-487.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLPerExcel_967_250">-4.03%</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="RealGLExcel_967_250">0.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="dayGLExcel_967_250">-825</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_967_250">-6.59</span>
+                                </td></tr><tr><td>
+                                    <span class="text-capitalize scrip-name text-blue" href="javascript:void(0)" data-val="3458|Praj Industries|393.75|-25.45|-6.07|NSE|INE074A01025||A|2705" data-hiddenval="108|316.6|0|0|108|0|0|0|316.6|108|2705_108" onclick="GetEquityMiniSnapshotNew_Omne('h',3458,'scheme_table','2705+NSE');">Praj Industries</span>
+                                    <span id="dvEqCompanyIcons_3458" class="icon-section"></span>
+                                </td><td class="text-right">
+                                    <span id="ltp_2705_108">395.05</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changeExcel_2705_108">-25.45</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_2705_108">-6.07</span>
+                                </td><td class="text-right text-blue">
+                                    <span class="scrip-name" style="cursor:pointer" onclick="getTransactions('','3458','INE074A01025');">108</span>
+                                </td><td class="text-right" id="avgPrice_2705_108">
+                                    316.60
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="CMVExcel_2705_108">42,665.00</span>
+                                </td><td class="text-right ShowInExcel">
+                                    <span id="InvValExcel_2705_108">34192</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLExcel_2705_108">8,473.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLPerExcel_2705_108">24.78%</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="RealGLExcel_2705_108">0.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="dayGLExcel_2705_108">-2,749</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_2705_108">-6.07</span>
+                                </td></tr><tr><td>
+                                    <span class="text-capitalize scrip-name text-blue" href="javascript:void(0)" data-val="75293|Jubilant Ingrev.|536|-31.9|-5.62|NSE|INE0BY001018||A|2783" data-hiddenval="175|315.23|0|0|175|0|0|0|315.23|175|2783_175" onclick="GetEquityMiniSnapshotNew_Omne('h',75293,'scheme_table','2783+NSE');">Jubilant Ingrev.</span>
+                                    <span id="dvEqCompanyIcons_75293" class="icon-section"></span>
+                                </td><td class="text-right">
+                                    <span id="ltp_2783_175">539.10</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changeExcel_2783_175">-31.9</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_2783_175">-5.62</span>
+                                </td><td class="text-right text-blue">
+                                    <span class="scrip-name" style="cursor:pointer" onclick="getTransactions('','75293','INE0BY001018');">175</span>
+                                </td><td class="text-right" id="avgPrice_2783_175">
+                                    315.23
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="CMVExcel_2783_175">94,342.00</span>
+                                </td><td class="text-right ShowInExcel">
+                                    <span id="InvValExcel_2783_175">55165</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLExcel_2783_175">39,177.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLPerExcel_2783_175">71.02%</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="RealGLExcel_2783_175">0.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="dayGLExcel_2783_175">-5,583</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_2783_175">-5.62</span>
+                                </td></tr><tr><td>
+                                    <span class="text-capitalize scrip-name text-blue" href="javascript:void(0)" data-val="2227|Welspun India|138.75|-7.75|-5.29|NSE|INE192B01031||A|11253" data-hiddenval="20|81.94|0|0|20|0|0|0|81.94|20|11253_20" onclick="GetEquityMiniSnapshotNew_Omne('h',2227,'scheme_table','11253+NSE');">Welspun India</span>
+                                    <span id="dvEqCompanyIcons_2227" class="icon-section"></span>
+                                </td><td class="text-right">
+                                    <span id="ltp_11253_20">136.85</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changeExcel_11253_20">-7.75</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_11253_20">-5.29</span>
+                                </td><td class="text-right text-blue">
+                                    <span class="scrip-name" style="cursor:pointer" onclick="getTransactions('','2227','INE192B01031');">20</span>
+                                </td><td class="text-right" id="avgPrice_11253_20">
+                                    81.94
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="CMVExcel_11253_20">2,737.00</span>
+                                </td><td class="text-right ShowInExcel">
+                                    <span id="InvValExcel_11253_20">1638</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLExcel_11253_20">1,098.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLPerExcel_11253_20">67.01%</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="RealGLExcel_11253_20">0.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="dayGLExcel_11253_20">-155</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_11253_20">-5.29</span>
+                                </td></tr><tr><td>
+                                    <span class="text-capitalize scrip-name text-blue" href="javascript:void(0)" data-val="22012|Olectra Greentec|761|-37.5|-4.7|NSE|INE260D01016||A|10637" data-hiddenval="50|658.7|0|0|50|0|0|0|658.7|50|10637_50" onclick="GetEquityMiniSnapshotNew_Omne('h',22012,'scheme_table','10637+NSE');">Olectra Greentec</span>
+                                    <span id="dvEqCompanyIcons_22012" class="icon-section"></span>
+                                </td><td class="text-right">
+                                    <span id="ltp_10637_50">763.20</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changeExcel_10637_50">-37.5</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_10637_50">-4.7</span>
+                                </td><td class="text-right text-blue">
+                                    <span class="scrip-name" style="cursor:pointer" onclick="getTransactions('','22012','INE260D01016');">50</span>
+                                </td><td class="text-right" id="avgPrice_10637_50">
+                                    658.70
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="CMVExcel_10637_50">38,160.00</span>
+                                </td><td class="text-right ShowInExcel">
+                                    <span id="InvValExcel_10637_50">32934</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLExcel_10637_50">5,225.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLPerExcel_10637_50">15.86%</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="RealGLExcel_10637_50">0.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="dayGLExcel_10637_50">-1,875</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_10637_50">-4.70</span>
+                                </td></tr><tr><td>
+                                    <span class="text-capitalize scrip-name text-blue" href="javascript:void(0)" data-val="2685|Morepen Labs.|49.8|-2.35|-4.51|NSE|INE083A01026||A|2259" data-hiddenval="50|67.58|0|0|50|0|0|0|67.58|50|2259_50" onclick="GetEquityMiniSnapshotNew_Omne('h',2685,'scheme_table','2259+NSE');">Morepen Labs.</span>
+                                    <span id="dvEqCompanyIcons_2685" class="icon-section"></span>
+                                </td><td class="text-right">
+                                    <span id="ltp_2259_50">49.85</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changeExcel_2259_50">-2.35</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_2259_50">-4.51</span>
+                                </td><td class="text-right text-blue">
+                                    <span class="scrip-name" style="cursor:pointer" onclick="getTransactions('','2685','INE083A01026');">50</span>
+                                </td><td class="text-right" id="avgPrice_2259_50">
+                                    67.58
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="CMVExcel_2259_50">2,492.00</span>
+                                </td><td class="text-right ShowInExcel">
+                                    <span id="InvValExcel_2259_50">3378</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLExcel_2259_50">-886.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLPerExcel_2259_50">-26.24%</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="RealGLExcel_2259_50">0.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="dayGLExcel_2259_50">-118</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_2259_50">-4.51</span>
+                                </td></tr><tr><td>
+                                    <span class="text-capitalize scrip-name text-blue" href="javascript:void(0)" data-val="1792|Manali Petrochem|109|-4.35|-3.84|NSE|INE201A01024||A|13796" data-hiddenval="70|78.22|0|0|70|0|0|0|78.22|70|13796_70" onclick="GetEquityMiniSnapshotNew_Omne('h',1792,'scheme_table','13796+NSE');">Manali Petrochem</span>
+                                    <span id="dvEqCompanyIcons_1792" class="icon-section"></span>
+                                </td><td class="text-right">
+                                    <span id="ltp_13796_70">108.80</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changeExcel_13796_70">-4.35</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_13796_70">-3.84</span>
+                                </td><td class="text-right text-blue">
+                                    <span class="scrip-name" style="cursor:pointer" onclick="getTransactions('','1792','INE201A01024');">70</span>
+                                </td><td class="text-right" id="avgPrice_13796_70">
+                                    78.22
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="CMVExcel_13796_70">7,616.00</span>
+                                </td><td class="text-right ShowInExcel">
+                                    <span id="InvValExcel_13796_70">5475</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLExcel_13796_70">2,141.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLPerExcel_13796_70">39.09%</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="RealGLExcel_13796_70">0.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="dayGLExcel_13796_70">-305</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_13796_70">-3.84</span>
+                                </td></tr><tr><td>
+                                    <span class="text-capitalize scrip-name text-blue" href="javascript:void(0)" data-val="42523|Health.Global|238.85|-8.7|-3.51|NSE|INE075I01017||A|15555" data-hiddenval="70|184.35|0|0|70|0|0|0|184.35|70|15555_70" onclick="GetEquityMiniSnapshotNew_Omne('h',42523,'scheme_table','15555+NSE');">Health.Global</span>
+                                    <span id="dvEqCompanyIcons_42523" class="icon-section"></span>
+                                </td><td class="text-right">
+                                    <span id="ltp_15555_70">239.05</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changeExcel_15555_70">-8.7</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_15555_70">-3.51</span>
+                                </td><td class="text-right text-blue">
+                                    <span class="scrip-name" style="cursor:pointer" onclick="getTransactions('','42523','INE075I01017');">70</span>
+                                </td><td class="text-right" id="avgPrice_15555_70">
+                                    184.35
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="CMVExcel_15555_70">16,733.00</span>
+                                </td><td class="text-right ShowInExcel">
+                                    <span id="InvValExcel_15555_70">12904</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLExcel_15555_70">3,829.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLPerExcel_15555_70">29.67%</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="RealGLExcel_15555_70">0.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="dayGLExcel_15555_70">-609</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_15555_70">-3.51</span>
+                                </td></tr><tr><td>
+                                    <span class="text-capitalize scrip-name text-blue" href="javascript:void(0)" data-val="45955|Laurus Labs|466|-15.8|-3.28|NSE|INE947Q01028||A|19234" data-hiddenval="10|356.97|0|0|10|0|0|0|356.97|10|19234_10" onclick="GetEquityMiniSnapshotNew_Omne('h',45955,'scheme_table','19234+NSE');">Laurus Labs</span>
+                                    <span id="dvEqCompanyIcons_45955" class="icon-section"></span>
+                                </td><td class="text-right">
+                                    <span id="ltp_19234_10">469.55</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changeExcel_19234_10">-15.8</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_19234_10">-3.28</span>
+                                </td><td class="text-right text-blue">
+                                    <span class="scrip-name" style="cursor:pointer" onclick="getTransactions('','45955','INE947Q01028');">10</span>
+                                </td><td class="text-right" id="avgPrice_19234_10">
+                                    356.97
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="CMVExcel_19234_10">4,695.00</span>
+                                </td><td class="text-right ShowInExcel">
+                                    <span id="InvValExcel_19234_10">3569</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLExcel_19234_10">1,126.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLPerExcel_19234_10">31.54%</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="RealGLExcel_19234_10">0.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="dayGLExcel_19234_10">-158</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_19234_10">-3.28</span>
+                                </td></tr><tr><td>
+                                    <span class="text-capitalize scrip-name text-blue" href="javascript:void(0)" data-val="21281|Adani Ports|700.9|-23|-3.18|NSE|INE742F01042||A|15083" data-hiddenval="20|746.97|0|0|20|0|0|0|746.97|20|15083_20" onclick="GetEquityMiniSnapshotNew_Omne('h',21281,'scheme_table','15083+NSE');">Adani Ports</span>
+                                    <span id="dvEqCompanyIcons_21281" class="icon-section"></span>
+                                </td><td class="text-right">
+                                    <span id="ltp_15083_20">702.45</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changeExcel_15083_20">-23</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_15083_20">-3.18</span>
+                                </td><td class="text-right text-blue">
+                                    <span class="scrip-name" style="cursor:pointer" onclick="getTransactions('','21281','INE742F01042');">20</span>
+                                </td><td class="text-right" id="avgPrice_15083_20">
+                                    746.97
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="CMVExcel_15083_20">14,049.00</span>
+                                </td><td class="text-right ShowInExcel">
+                                    <span id="InvValExcel_15083_20">14939</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLExcel_15083_20">-890.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLPerExcel_15083_20">-5.96%</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="RealGLExcel_15083_20">0.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="dayGLExcel_15083_20">-460</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_15083_20">-3.18</span>
+                                </td></tr><tr><td>
+                                    <span class="text-capitalize scrip-name text-blue" href="javascript:void(0)" data-val="22070|Railtel Corpn.|114.45|-3.25|-2.76|NSE|INE0DD101019||A|2431" data-hiddenval="218|132.19|0|0|218|0|0|0|132.19|218|2431_218" onclick="GetEquityMiniSnapshotNew_Omne('h',22070,'scheme_table','2431+NSE');">Railtel Corpn.</span>
+                                    <span id="dvEqCompanyIcons_22070" class="icon-section"></span>
+                                </td><td class="text-right">
+                                    <span id="ltp_2431_218">114.25</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changeExcel_2431_218">-3.25</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_2431_218">-2.76</span>
+                                </td><td class="text-right text-blue">
+                                    <span class="scrip-name" style="cursor:pointer" onclick="getTransactions('','22070','INE0DD101019');">218</span>
+                                </td><td class="text-right" id="avgPrice_2431_218">
+                                    132.19
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="CMVExcel_2431_218">24,906.00</span>
+                                </td><td class="text-right ShowInExcel">
+                                    <span id="InvValExcel_2431_218">28816</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLExcel_2431_218">-3,911.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLPerExcel_2431_218">-13.57%</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="RealGLExcel_2431_218">0.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="dayGLExcel_2431_218">-709</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_2431_218">-2.76</span>
+                                </td></tr><tr><td>
+                                    <span class="text-capitalize scrip-name text-blue" href="javascript:void(0)" data-val="301|ITC|211.65|-5.4|-2.49|NSE|INE154A01025||A|1660" data-hiddenval="35|209.36|0|0|35|0|0|0|209.36|35|1660_35" onclick="GetEquityMiniSnapshotNew_Omne('h',301,'scheme_table','1660+NSE');">ITC</span>
+                                    <span id="dvEqCompanyIcons_301" class="icon-section"></span>
+                                </td><td class="text-right">
+                                    <span id="ltp_1660_35">211.80</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changeExcel_1660_35">-5.4</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_1660_35">-2.49</span>
+                                </td><td class="text-right text-blue">
+                                    <span class="scrip-name" style="cursor:pointer" onclick="getTransactions('','301','INE154A01025');">35</span>
+                                </td><td class="text-right" id="avgPrice_1660_35">
+                                    209.36
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="CMVExcel_1660_35">7,413.00</span>
+                                </td><td class="text-right ShowInExcel">
+                                    <span id="InvValExcel_1660_35">7327</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLExcel_1660_35">85.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLPerExcel_1660_35">1.17%</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="RealGLExcel_1660_35">0.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="dayGLExcel_1660_35">-189</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_1660_35">-2.49</span>
+                                </td></tr><tr><td>
+                                    <span class="text-capitalize scrip-name text-blue" href="javascript:void(0)" data-val="3709|Federal Bank|92.25|-1.65|-1.76|NSE|INE171A01029||A|1023" data-hiddenval="20|78.11|0|0|20|0|0|0|78.11|20|1023_20" onclick="GetEquityMiniSnapshotNew_Omne('h',3709,'scheme_table','1023+NSE');">Federal Bank</span>
+                                    <span id="dvEqCompanyIcons_3709" class="icon-section"></span>
+                                </td><td class="text-right">
+                                    <span id="ltp_1023_20">92.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changeExcel_1023_20">-1.65</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_1023_20">-1.76</span>
+                                </td><td class="text-right text-blue">
+                                    <span class="scrip-name" style="cursor:pointer" onclick="getTransactions('','3709','INE171A01029');">20</span>
+                                </td><td class="text-right" id="avgPrice_1023_20">
+                                    78.11
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="CMVExcel_1023_20">1,840.00</span>
+                                </td><td class="text-right ShowInExcel">
+                                    <span id="InvValExcel_1023_20">1562</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLExcel_1023_20">278.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLPerExcel_1023_20">17.78%</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="RealGLExcel_1023_20">0.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="dayGLExcel_1023_20">-33</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_1023_20">-1.76</span>
+                                </td></tr><tr><td>
+                                    <span class="text-capitalize scrip-name text-blue" href="javascript:void(0)" data-val="5452|Oil India|218|-3.15|-1.42|NSE|INE274J01014||A|17438" data-hiddenval="5|123.59|0|0|5|0|0|0|123.59|5|17438_5" onclick="GetEquityMiniSnapshotNew_Omne('h',5452,'scheme_table','17438+NSE');">Oil India</span>
+                                    <span id="dvEqCompanyIcons_5452" class="icon-section"></span>
+                                </td><td class="text-right">
+                                    <span id="ltp_17438_5">217.30</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changeExcel_17438_5">-3.15</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_17438_5">-1.42</span>
+                                </td><td class="text-right text-blue">
+                                    <span class="scrip-name" style="cursor:pointer" onclick="getTransactions('','5452','INE274J01014');">5</span>
+                                </td><td class="text-right" id="avgPrice_17438_5">
+                                    123.59
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="CMVExcel_17438_5">1,086.00</span>
+                                </td><td class="text-right ShowInExcel">
+                                    <span id="InvValExcel_17438_5">617</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLExcel_17438_5">469.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="UnRealGLPerExcel_17438_5">75.82%</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="RealGLExcel_17438_5">0.00</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="dayGLExcel_17438_5">-16</span>
+                                </td><td class="text-right ShowInExcel" style="width:0%">
+                                    <span id="changePerExcel_17438_5">-1.42</span>
+                                </td></tr></table>
